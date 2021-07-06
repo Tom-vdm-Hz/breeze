@@ -8,7 +8,8 @@
 
         <!-- Validation Errors -->
         <x-auth-validation-errors class="mb-4" :errors="$errors" />
-
+        <link rel="stylesheet" href="../../css/app.css">
+        <link rel="stylesheet" href="../../../public/css/app.css">
         <form method="POST" action="{{ route('password.update') }}">
             @csrf
 
