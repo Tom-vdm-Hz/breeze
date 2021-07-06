@@ -5,7 +5,8 @@
                 <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
             </a>
         </x-slot>
-
+        <link rel="stylesheet" href="../../css/app.css">
+        <link rel="stylesheet" href="../../../public/css/app.css">
         <!-- Validation Errors -->
         <x-auth-validation-errors class="mb-4" :errors="$errors" />
 
