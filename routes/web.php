@@ -1,7 +1,7 @@
 <?php
 
 
-use http\Env\Url;
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\Route;
 
 /*
